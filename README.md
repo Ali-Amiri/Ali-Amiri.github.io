@@ -1,49 +1,33 @@
-# Academic Profile Website — ready to customize
+# Academic website — Ghulam Ali Amiri
 
-This is an original academic website starter inspired by the **structure** of a professional researcher's personal website. It is not copied from someone else's website. It contains eight pages, one shared stylesheet, and content placeholders.
+This folder contains the five approved website pages. The site is a static HTML/CSS site and can be opened locally or hosted using GitHub Pages.
 
-## Step 1: Customize content
+## Pages
+- `index.html` — Home, About Me, News & Highlights, Research Interests, Education
+- `publications.html` — Six selected publications
+- `teaching.html` — Courses and teaching experience
+- `awards.html` — Honors & Awards
+- `contact.html` — Email, Google Scholar, LinkedIn
 
-1. Extract the ZIP file on your computer.
-2. Open every `.html` file in a text editor (Notepad, VS Code, etc.).
-3. Replace **Your Name**, **Your University**, `you@university.edu`, research description, and every sample publication/news entry.
-4. Open `contact.html` and replace generic LinkedIn, ORCID and GitHub URLs.
-5. To add a real photo: save your headshot as `assets/photo.jpg`. In each HTML file, replace the avatar block `<div class="avatar" aria-label="Profile-photo placeholder">YN</div>` with `<div class="avatar"><img src="assets/photo.jpg" alt="Portrait of Your Name"></div>`.
-6. Update the copyright year as appropriate. For your actual PDF CV, you may add the document under `assets/` and link to it on the homepage.
-7. Preview locally by double-clicking `index.html`.
+## Required assets
+- `assets/site.css` — visual styles
+- `assets/amiri.png` — supplied profile photograph
 
-## Step 2: Create your free website on GitHub
+Keep these files and the `assets` folder together in the same folder; do not rename or move them individually.
 
-1. Create or sign in at https://github.com.
-2. Note your username, for example `researcher123`.
-3. New repository > Repository name: `researcher123.github.io` (replace with your **exact** GitHub username). Choose **Public**, then Create repository.
-4. In the new repository, choose **Add file > Upload files**. Upload the files extracted from this ZIP, including the `assets` folder, keeping the same hierarchy. **Do not upload the ZIP as a ZIP**.
-5. Commit the files to the default branch.
-6. Go to **Settings > Pages > Build and deployment**.
-7. Set Source to **Deploy from a branch**, Branch to the default branch (usually **main**), folder **/(root)**, then **Save**.
-8. Visit `https://researcher123.github.io/` (replace with your username). Deployment may take up to 10 minutes.
+## Preview on your computer
+Double-click `index.html`. Use the navigation menu to check the other pages.
 
-## Step 3: Link your site on LinkedIn
+## Upload to GitHub
+1. Open the repository `Ali-Amiri/Ali-Amiri.github.io` on GitHub.
+2. Upload the five HTML files and the entire `assets` folder directly to the repository root.
+3. For any files you uploaded previously with the same names, replace them by uploading the updated files and committing your changes.
+4. The older `research.html`, `data.html`, and `talks.html` files are NOT included in this package; remove those older files from the repository if you do not want their URLs to remain accessible.
+5. After reviewing the website, change the repository to Public if your account requires a public repository to publish GitHub Pages. In repository Settings → Pages, choose Deploy from a branch, branch `main`, folder `/(root)`.
+6. Visit `https://ali-amiri.github.io/` once GitHub Pages finishes deploying. Publishing can take a few minutes.
 
-LinkedIn > Me > View Profile > Contact info > Edit > Add website > paste the GitHub Pages URL > Save.
+## Privacy
+Your doctoral dissertation topic, unpublished research details, personal residence, phone number, and identification details are intentionally excluded. The only doctoral information on the website is the public academic role and previously approved general research interests.
 
-## Files
-
-- `index.html` — homepage and news highlights
-- `publications.html` — publications and DOI/PDF links
-- `research.html` — research projects
-- `teaching.html` — courses
-- `data.html` — data and research resources
-- `awards.html` — awards
-- `talks.html` — speaking and presentations
-- `contact.html` — professional contact links
-- `assets/site.css` — all design settings
-
-## Troubleshooting
-
-- 404 error? Confirm repository name matches your username, Pages source is set to the branch root, and `index.html` is in the root.
-- Missing styling? Confirm `assets/site.css` exists with that exact path.
-- A page is not found? Confirm the file name exactly matches the navigation link.
-- Site does not update? Wait a few minutes, check repository Actions and Pages settings, then hard refresh the browser.
-
-**Important:** All sample claims are placeholders. Replace them with verified information before publishing.
+## Note on awards
+The exact official category/name of the 2025 WI-IAT doctoral consortium award has not been verified by a certificate; the wording can be updated later.
